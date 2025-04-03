@@ -1,0 +1,33 @@
+/* Basic styles for the navbar */
+.navbar {
+    display: flex;
+    justify-content: center; /* Align links in the center */
+    background-color: #333;  /* Dark background color */
+    padding: 10px 20px;      /* Padding around navbar */
+    width: 1000px;
+  }
+  
+  .navbar a {
+    color: white;              /* White text color */
+    text-decoration: none;     /* Remove underline */
+    padding: 10px 20px;        /* Padding around each link */
+    margin: 0 10px;            /* Space between links */
+    border-radius: 5px;        /* Rounded corners for links */
+    transition: background-color 0.3s ease;  /* Smooth transition for background */
+  }
+  
+  .navbar a:hover {
+    background-color: #555;    /* Darker background color on hover */
+  }
+  
+  .navbar .active {
+    background-color: #007bff;  /* Active link color */
+    color: white;               /* Text color when active */
+  }
+  
+  /* Optional: Add some spacing for the active state when hovered */
+  .navbar a:hover,
+  .navbar .active {
+    cursor: pointer;           /* Cursor pointer for hover */
+  }
+  

@@ -1,0 +1,13 @@
+.inp-title{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.code-area{
+    margin: 20px;
+}
+
+textarea{
+    border-radius: 10px;
+}
